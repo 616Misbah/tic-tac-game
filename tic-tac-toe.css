@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+button{
+    height:50px;
+    width:50px;
+    font-size: 40px;
+    font-family: Arial;
+    font-weight: bold;
+    border:1px solid grey;
+    background-color: white;
+}
+.game-board{
+    border:none;
+    width:fit-content;
+    display:grid;
+    place-items:center;
+    margin-bottom: 20px;
+}
+.newGame{
+    height:fit-content;
+    width:fit-content;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    border:2px solid grey;
+    background-color: black;
+    color:white;
+    padding:10px;
+}
+.winnerGrid{
+    background-color:lightgreen;
+}
